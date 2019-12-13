@@ -1,0 +1,341 @@
+body {background-color:rgb(10, 170, 112); line-height: 1.5em; font-weight:400; font-size: 13px;}
+
+.inner_main_menu {margin: 0 auto;}
+.inner_main_menu ul{margin: 0; padding: 0px; list-style:none ; text-align: right; padding-top: 60px;}
+.inner_main_menu ul li{float: none; display: inline-block; position: relative;}
+.inner_main_menu ul li:nth-child(1){float: left;}
+.inner_main_menu ul li:nth-child(2){float: left;}
+.inner_main_menu ul li:nth-child(3){float: left;}
+.inner_main_menu ul li:nth-child(4){float: left;}
+.inner_main_menu ul li a{color: #262626; font-size: 13px; text-transform: uppercase; text-decoration: none; display:block; 
+    padding: 10px 20px; }
+.inner_main_menu ul li a:hover{ color: rgb(192, 164, 3)} 
+.inner_main_menu ul li ul{position: absolute; top:40; left:-9999999px; background-color: rgb(10, 170, 112); padding:0;}
+.inner_main_menu ul li:hover ul{ left:0px;}
+
+.inner_main_menu ul li ul li{float: left; width:100%; text-align: left;}
+.inner_main_menu ul li ul li a{color: #000; font-size: 9px ;}
+.inner_main_menu ul li ul li a:hover{background-color: rgb(255, 255, 255);}
+.main_menu{ width:100%; position: relative;}
+
+
+
+.logo_area{width:300px; height: 300px; position: absolute; left:50%; top:0; content: ""; margin-left: -130px; padding-top: 80px;}
+.header {background-color:rgb(255, 255, 255); height:200px; width:100%;}
+
+.has-site-title, 
+.Header-branding {
+    font-family: futura-pt;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+    letter-spacing: .12em;
+    text-decoration:none ;
+    text-transform: uppercase;
+    color: rgb(10, 170, 112);
+}
+.has-site-title, 
+.Header-branding {
+    text-rendering: optimizeLegibility;}
+
+    .Header-tagline {
+        font-family: europa;
+        font-weight: 200px;
+        font-style: normal;
+        font-size: 9px;
+        letter-spacing: .40em;
+        line-height: 1em;
+        text-transform: uppercase;
+        color: #2b2b2b;
+        padding-left: 40px;
+    }
+
+
+
+span.title {background: rgb(192, 164, 3);
+padding: .8em 2.5em;
+font-weight: 600;
+font-size: 2em;
+top: 1px;
+left: 250px;
+padding-top: 2px;
+display: inline-block;
+position: relative;}
+
+.img-container figure {
+    justify-content: space-evenly;
+    display: flex;
+    padding: 30px;
+}
+
+span.text {background: rgb(192, 164, 3);
+    padding: .8em 2.5em;
+    font-weight: 600;
+    font-size: 2em;
+    top: 1px;
+    left: 250px;
+    padding-top: 2px;
+    display: inline-block;
+    position: relative;}
+
+.contact-title{
+    text-align: center;
+    margin-top: 100px;
+    text-transform: uppercase;
+    
+}
+.contact-title h1{ 
+    font-size: 40px;
+    line-height: 20px;
+
+}
+.contact-container{
+    background: url(branch.jpg);
+    background-size: cover;
+
+}
+
+.contact-form{
+    text-align: center;
+    padding-top: 20px;
+}
+.form{
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}
+.form-control{
+    width:600px ;
+    background: transparent;
+    border:none ;
+    outline:none ;
+    border-bottom: 1px solid gray;
+    color: #ffffff;
+    font-size:18px ;
+    margin-bottom:16px ;
+}
+.input{
+     height: 40px
+}
+form .submit{
+    background:rgb(10, 170, 112) ;
+    border-color:  transparent;
+    font-size:20px ;
+    font-weight: bold;
+    letter-spacing: 2px ;
+    color: #ffffff;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.freestuff_menu ul{ list-style: none;
+text-align: right;
+margin: 50px;
+padding: 60px;
+}
+.freestuff_menu ul li{float:none; display: inline-block; position: relative; }
+.freestuff_menu ul li:nth-child(1){ float: left;}
+.freestuff_menu ul li:nth-child(2){ float: left; margin-left:100px;}
+.freestuff_menu ul li:nth-child(3){ float: left; margin-left: 100px;}
+.freestuff_menu ul li a{background-color: #000; padding:40px;  color:#ffffff; width: 100%; font-size:15px ;}
+.freestuff_menu ul li a:hover{color:rgb(192, 164, 3)}
+
+.blog_menu ul{list-style:none ; padding:70px; 
+}
+.blog_menu ul li{float:left; margin-left:20px ; }
+.blog_menu ul li:nth-child(8){margin-left:100px;}
+
+.blog_menu ul li a{text-decoration:none; background-color: #000; padding:20px; color:#ffffff;}
+.blog_menu ul li a:hover{color:rgb(192, 164, 3)}
+
+.login-box{
+    width:320px;
+    height: 420px;
+    background:#000;
+    color:#ffffff;
+    top:80%;
+    left:50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 10px 50px;
+
+}
+
+.login-box h1{
+    margin: 0;
+    margin-bottom: 30px;
+    top:-20% ;
+    padding:  0 0 20px ;
+    text-align: center ;
+    font-size: 22px;
+    background: rgb(10, 170, 112); padding: 5%;
+}
+
+.login-box p{
+    margin:0;
+    padding: 0 ;
+    font-weight: bold;
+}
+.login-box input{
+    width: 100%;
+    margin-bottom:20px ;
+}
+.login-box input[type="text"], input[type="password"]{
+    border:none ;
+    border-bottom: 1px solid #ffffff;
+    background:transparent ;
+    outline:none ;
+    height: 40px;
+    color:#fff;
+    font-size: 16px;
+}
+.login-box input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background:rgb(10, 170, 112);
+    font-size: 18px;
+    border-radius: 20px ;
+}
+.login-box input[type="submit"]:hover{
+    cursor: pointer;
+    background: rgb(192, 164, 3);
+    color: #000;
+}
+
+.login-box a{
+    text-decoration:none ;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.login-box a:hover{
+    color: rgb(192, 164, 3);
+}
+
+.Signup-box {
+    width:320px;
+    height: 600px;
+    background:#000;
+    color:#ffffff;
+    top:100%;
+    left:50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 10px 50px;
+
+}
+.Signup-container figure{
+    image-resolution: cover ;
+}
+
+.Signup-box h1{
+    margin: 0;
+    margin-bottom: 30px;
+    top: -20%;
+    padding:  0 0 20px ;
+    text-align: center;
+    font-size: 22px;
+    background-color: rgb(10, 170, 112); padding: 5%;
+
+}
+.Signup-box input{
+    width: 100%;
+    margin-bottom:20px ;
+}
+.Signup-box input[type="text"], input[type="Email"],  input[type="password"],input[type="confirmpassword"] {
+    border:none ;
+    border-bottom: 1px solid #ffffff;
+    background:transparent ;
+    outline:none ;
+    height: 20px;
+    color:#fff;
+    font-size: 12px;
+}
+.Signup-box input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background:rgb(10, 170, 112);
+    font-size: 18px;
+    border-radius: 20px ;
+}
+.Signup-box input[type="submit"]:hover{
+    cursor: pointer;
+    background: rgb(192, 164, 3);
+    color: #000;
+}
+
+.Signup-box a{
+    text-decoration:none ;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.Signup-box a:hover{
+    color: rgb(192, 164, 3);
+}
+
+
+.video-container{
+    margin: 0 auto;
+    width: cover 
+    
+
+}
+
+.video{
+    width: cover;}
+
+.footer-box{
+    background-color: #000;
+    width: 100%;
+    height: 100px;
+}
+.site-info a{
+    text-decoration:none ;
+    color: #ffff;
+    padding: 10px 500px;
+    margin:0;
+    top: 20px;
+}
+.video-container{
+    background-size:cover ;
+}
+.content-container
+ .blog-content {
+    height: 500px;
+    background: url(cover.jpg);
+    background-size: cover;
+}
+.content-container
+ .blog-content2 {
+    height: 500px;
+    background: url(orphan.jpg);
+    background-size: cover;
+    
+}
+.content-container
+ .blog-content3 {
+    height: 500px;
+    background: url(friends.jpg);
+    background-size: cover;
+}
+.content-container 
+.Blog-title a{
+    float: left;
+    color: #fff;
+    text-decoration: none;
+    padding: 50px 300px;
+}
+
+
+.container{
+    padding: 30px;
+}
+
+
+    
